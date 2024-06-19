@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ENG">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to Spend a Million Dollars</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>How to Spend a Trillion Dollars</h1>
+      <div id="balance"><h1>Balance: 1,000,000,000,000</h1></div>
+    </div>
+    <div class="container">
+      <div class="left-box">
+        <div class="item" onclick="buyItem('building')">
+          <div class="image-box">
+            <img src="images/building.jpg" alt="Building" />
+          </div>
+          <span>Building - $300,000,000</span>
+        </div>
+        <div class="item" onclick="buyItem('mansion')">
+          <div class="image-box">
+            <img src="images/mansion.jpg" alt="Mansion" />
+          </div>
+          <span>Mansion - $3,000,000</span>
+        </div>
+        <div class="item" onclick="buyItem('car')">
+          <div class="image-box">
+            <img src="images/gwagon.jpg" alt="Car" />
+          </div>
+          <span>G Wagon - $200,000</span>
+        </div>
+        <div class="item" onclick="buyItem('phone')">
+          <div class="image-box">
+            <img src="images/iphone.jpg" alt="Phone" />
+          </div>
+          <span>iPhone - $1,000</span>
+        </div>
+        <div class="item" onclick="buyItem('chicken')">
+          <div class="image-box">
+            <img src="images/chicken.jpg" alt="Chicken" />
+          </div>
+          <span>Chicken - $20</span>
+        </div>
+      </div>
+      <div class="right-box">
+        <h2>Owned Items</h2>
+        <ul id="owned-items"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- the reset button -->
+    <div class="resetButton">
+      <button onclick="resetGame()">RESET</button>
+    </div>
+  </body>
+</html>
