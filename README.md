@@ -1,1 +1,1 @@
-# How to spend a Trillion Dollors
+# How to spend a Trillion Dollors
